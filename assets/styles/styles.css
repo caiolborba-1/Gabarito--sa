@@ -22,8 +22,6 @@
 #l-senha {
     color: white;
 }
-<<<<<<< HEAD
-=======
 
 .b {
     background-color: rgba(120, 130, 214, 0.863);
@@ -58,6 +56,10 @@
     padding: 50px;
     border-radius: 20px;
     display: inline;
+    width: 300px;
+   
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -72,8 +74,15 @@
 
 }
 
->>>>>>> 5abfed31b76063c2c7f8b3f8e31a4f4e4f8df830
-/* rgba(206, 188, 128, 0.863) = bege
-
-/* rgba(120, 130, 214, 0.863) = cor principal
+button{
+    border: none;
+     background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    display: inline;
+    width: 300px;
+   
+    justify-content: center;
+    align-content: center;
+}
 
