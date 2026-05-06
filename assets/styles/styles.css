@@ -23,7 +23,11 @@
     color: white;
 }
 
-
+.im {
+    position: fixed;
+    height: 150px;
+    padding: 20px;
+}
 
 /* rgba(206, 188, 128, 0.863) = bege
 
