@@ -22,6 +22,57 @@
 #l-senha {
     color: white;
 }
+<<<<<<< HEAD
+=======
+
+.b {
+    background-color: rgba(120, 130, 214, 0.863);
+    align-content: center;
+    height: 800px;
+    width: 900px;
+    justify-content: space-around;
+    border-radius: 51px;
+    padding: 35px;
+}
+
+.q{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.a {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.c {
+    display: grid;
+    padding: 50px;
+    gap: 30px;
+}
+
+.qbranco {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    display: inline;
+}
+
+
+.im {
+    position: fixed;
+    height: 150px;
+    padding: 20px;
+}
+
+.qroxo {
+    background-color: rgba(120, 130, 214, 0.863);
+
+}
+
+>>>>>>> 5abfed31b76063c2c7f8b3f8e31a4f4e4f8df830
 /* rgba(206, 188, 128, 0.863) = bege
 
 /* rgba(120, 130, 214, 0.863) = cor principal
