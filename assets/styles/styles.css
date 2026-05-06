@@ -23,7 +23,35 @@
     color: white;
 }
 
+.porple{
+background-color: blueviolet;
+display: flex;
+justify-content: center;
+padding: 30px;
 
+}
+.blue{
+
+background-color: aqua;
+margin: 20px;
+padding: 20px;
+
+}
+
+.yo{
+
+background-color: brown;
+padding: 20px;
+margin: 20px;
+
+}
+
+.flex{
+
+display: flex;
+
+
+}
 
 /* rgba(206, 188, 128, 0.863) = bege
 
