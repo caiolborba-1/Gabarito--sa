@@ -5,12 +5,12 @@ document.getElementById("form-login").onsubmit = (e) => {
     const usuarioCorreto = "Caio";
     const senhaCorreta = "trem";
 
-    // 2. Capturando os valores digitados pelo usuário
+
     const usuarioDigitado = document.getElementById('nome_usuario').value;
     const senhaDigitada = document.getElementById('senha').value;
     const mensagem = document.getElementById('mensagem');
 
-    // 3. Verificação
+
     if (usuarioDigitado === usuarioCorreto && senhaDigitada === senhaCorreta) {
         mensagem.innerHTML = "<div class='sucesso'><p>Login correto!</p></div>";
             setTimeout(() => {
