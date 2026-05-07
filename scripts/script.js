@@ -1,51 +1,25 @@
-let cadastro = false;
-
-document.getElementById("toggle").onclick = (e) => {
-    e.preventDefault(); 
-    cadastro = !cadastro;
-    
-    document.getElementById("titulo").innerText = cadastro ? "Cadastro" : "Login";
-    document.querySelector("button").innerText = cadastro ? "Cadastrar" : "Entrar";
-    document.getElementById("toggle").innerText = cadastro? "Já tem conta? Faça Login" : "Não tem conta? Cadastre-se";
-    
-    document.getElementById("mensagem").innerHTML = "";
-}
-
 document.getElementById("form-login").onsubmit = (e) => {
     e.preventDefault();
-
-    let email = document.getElementById("email").value;
-    let senha = document.getElementById("senha").value;
-    let mensagem = document.getElementById("mensagem");
-
-    mensagem.innerHTML = "";
-
-    if (!email.includes("@") || !email.includes(".")) {
-        mensagem.innerHTML = "<div class='erro'><p>Email inválido!</p></div>";
-        return;
-    }
     
-    if (senha.length < 4) {
-        mensagem.innerHTML = "<div class='erro'><p>Senha muito curta!</p></div>";
-        return;
-    }
 
-    if (cadastro) {
-        localStorage.setItem(email, senha);
-        mensagem.innerHTML = "<div class='sucesso'><p>Cadastrado com sucesso!</p></div>";
-    } else {
-        let salva = localStorage.getItem(email);
-        if (salva === senha) {
-            mensagem.innerHTML = "<div class='sucesso'><p>Login correto!</p></div>";
+    const usuarioCorreto = "Caio";
+    const senhaCorreta = "trem";
+
+    // 2. Capturando os valores digitados pelo usuário
+    const usuarioDigitado = document.getElementById('nome_usuario').value;
+    const senhaDigitada = document.getElementById('senha').value;
+    const mensagem = document.getElementById('mensagem');
+
+    // 3. Verificação
+    if (usuarioDigitado === usuarioCorreto && senhaDigitada === senhaCorreta) {
+        mensagem.innerHTML = "<div class='sucesso'><p>Login correto!</p></div>";
             setTimeout(() => {
                 window.location.href = "public/tela_inicial.html";
             }, 1000);
-            
-        } else {
-            mensagem.innerHTML = "<div class='erro'><p>Dados Incorretos!</p></div>";
-        }
-    }
+        
 
-    
-    document.getElementById("form-login").reset();
+    } else {
+        mensagem.innerHTML = "<div class='erro'><p>Nome de usuario ou senha incorreta!</p></div>";
+        return;
+    }
 }

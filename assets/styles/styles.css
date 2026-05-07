@@ -15,18 +15,16 @@
     color: white;
 }
 
-#l-email {
-    color: white;
+#nome_usuario {
+    color: rgb(0, 0, 0);
 }
 
 #l-senha {
     color: white;
 }
 
-.b {
+.b{
     background-color: rgba(120, 130, 214, 0.863);
-    align-content: center;
-    height: 800px;
     width: 900px;
     justify-content: space-around;
     border-radius: 51px;
@@ -40,7 +38,7 @@
 
 .a {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
 }
@@ -68,7 +66,9 @@
 .im {
     position: fixed;
     height: 150px;
-    padding: 20px;
+    padding: 10px;
+    top: 0px;
+    left:0px;
 }
 
 .qroxo {
@@ -81,23 +81,107 @@ button{
 }
 
 .tabela_branca{
-    height: 400px;
-    width: 600px;
+    height: 540px;
+    width: 840px;
     background-color: white;
     border-radius: 30px;
     justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    padding: 30px;
 }
 
 .elemento_tabela{
   display:flex ;
-  justify-content: space-between;  
 }
 
-.b_velocidade{
+.titulo_velocidade{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.aviso{
+    width: 50px;
+    height: 30px;
+}
+
+.certo{
+    height: 30px;
+    width: 40px;
+}
+
+.tabela_cadastrar_sensor{
+    height: 40px;
+    width: 840px;
+    background-color: white;
+    border-radius: 30px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+input{
+    font-size: x-large;
+    border: none;
+}
+
+#botao_cadastrar{
+    border-radius: 50px;
+    font-size: x-large;
+    background-color: white;
+    color: #212529;
+}
+
+.botao_voltar{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top: 750px;
+    left: 420px;
+}
+
+.botao_voltar:hover{
     background-color: rgba(120, 130, 214, 0.863);
-    height: 800px;
-    width: 900px;
-    justify-content: space-around;
-    border-radius: 51px;
-    padding: 35px;
+}
+
+.botao_avancar{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top: 750px;
+    right: 420px;
+}
+
+.botao_avancar:hover{
+    background-color: rgba(120, 130, 214, 0.863);
+}
+
+#botao{
+    height: 30px;
+    width: 40px;
+}
+
+.botao_voltar_cadastro{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top: 670px;
+    left: 420px;
+}
+
+.botao_voltar_cadastro:hover{
+    background-color: rgba(120, 130, 214, 0.863);
 }
