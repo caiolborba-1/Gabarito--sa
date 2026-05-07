@@ -55,11 +55,13 @@
     background-color: white;
     padding: 50px;
     border-radius: 20px;
-    display: inline;
+    display: inline-flex;
     width: 300px;
-   
+    height: 110px;
     justify-content: center;
     align-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 
@@ -76,13 +78,26 @@
 
 button{
     border: none;
-     background-color: white;
-    padding: 50px;
-    border-radius: 20px;
-    display: inline;
-    width: 300px;
-   
-    justify-content: center;
-    align-content: center;
 }
 
+.tabela_branca{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.elemento_tabela{
+  display:flex ;
+  justify-content: space-between;  
+}
+
+.b_velocidade{
+    background-color: rgba(120, 130, 214, 0.863);
+    height: 800px;
+    width: 900px;
+    justify-content: space-around;
+    border-radius: 51px;
+    padding: 35px;
+}
