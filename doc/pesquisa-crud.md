@@ -45,4 +45,17 @@
         A ESTRUTURA BÁSICA ENVOLVE ARQUIVOS PARA CONEXÃO (CONFIG.PHP) LISTAGEM (INDEX.PHP) , FORMULÁRIOS DE CADASTRO/EDIÇÃO E SCRIPTS DE PROCESSAMENTO DE AÇÕES. <br>
         O USO DE PDO OU MYSQL GARANTE A INTERAÇÃO SEGURA COM O BANCO DE DADOS.
 
+
+        Aplicação do CRUD no Projeto
+
+        No projeto desenvolvido, o CRUD será utilizado para gerenciar os dados do sistema ferroviário com sensores IoT.
+
+        As operações vão funcionar da seguinte forma:
+        Create: cadastrar sensores, locomotivas e novos registros de monitoramento.
+        Read: visualizar dados como temperatura, velocidade, pressão e localização dos trens.
+        Update: atualizar informações de sensores ou dados cadastrados.
+        Delete: remover registros antigos ou sensores desativados.
+
+        Dessa forma o crud permite o controle das informações do sistema, sempre garantindo organização, monitoramento e gerenciamento dos dados.
+
 Pesquisa feita por: Matheus.T
