@@ -1,5 +1,5 @@
 
-                                                      ** DESCRIÇÃO DE SISTEMA **
+___________________________________________________________** DESCRIÇÃO DE SISTEMA **_______________________________________________________________________________________
 
      O sistema tem como principal objetivo realizar o monitoramento em tempo real dos dados coletados pelos sensores IoT instalados na locomotiva e nos trilhos ferroviários, permitindo maior controle operacional, segurança e eficiência no transporte ferroviário. Porem no momento a atividade tem como foco principal apenas uma parte visual do sistema
 
