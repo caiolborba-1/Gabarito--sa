@@ -85,7 +85,7 @@ button{
     width: 840px;
     background-color: white;
     border-radius: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     margin-top: 50px;
     padding: 30px;
@@ -184,4 +184,15 @@ input{
 
 .botao_voltar_cadastro:hover{
     background-color: rgba(120, 130, 214, 0.863);
+}
+
+.localizacao_trilhos{
+    height: 480px;
+    width: 400px;
+}
+
+#trilhos{
+    height: 500px;
+    width: 450px;
+
 }
