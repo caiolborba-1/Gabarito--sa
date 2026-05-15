@@ -23,6 +23,15 @@
     color: white;
 }
 
+.j{
+     background-color: rgba(120, 130, 214, 0.863);
+    width: 900px;
+    justify-content: space-around;
+    border-radius: 51px;
+    padding: 35px;
+    display: flex;
+}
+
 .b{
     background-color: rgba(120, 130, 214, 0.863);
     width: 900px;
@@ -195,4 +204,9 @@ input{
     height: 500px;
     width: 450px;
 
+}
+
+.minusculo{
+    text-transform: lowercase;
+    font-size: small;
 }

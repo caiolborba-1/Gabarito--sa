@@ -14,7 +14,7 @@ document.getElementById("form-login").onsubmit = (e) => {
     if (usuarioDigitado === usuarioCorreto && senhaDigitada === senhaCorreta) {
         mensagem.innerHTML = "<div class='sucesso'><p>Login correto!</p></div>";
             setTimeout(() => {
-                window.location.href = "public/tela_inicial.html";
+                window.location.href = "tela_inicial_adm.html";
             }, 1000);
         
 
