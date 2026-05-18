@@ -25,3 +25,29 @@
     P (PHP): A linguagem de programação principal. Permite criar sites dinâmicos e interagir com o banco de dados. O código é processado no servidor e entregue ao visitante já em formato HTML.
 
     phpMyAdmin: Uma interface web que facilita a administração do banco de dados (MariaDB/MySQL). Permite criar, remover e alterar tabelas, além de executar comandos SQL visualmente
+
+**Download e Instalação**
+
+    Acesse a página oficial de Downloads do XAMPP e escolha a versão correspondente ao seu sistema operacional (Windows, Linux ou macOS).
+
+    Execute o arquivo baixado. Se o Windows exibir um aviso de controle de conta de usuário (UAC), clique em Sim ou OK para prosseguir.
+
+    Na tela de componentes, você pode manter todas as opções marcadas por padrão (inclui Apache, MySQL, PHP e phpMyAdmin).
+
+    Escolha a pasta de destino (o padrão geralmente é C:\xampp no Windows ou /opt/lampp no Linux).
+
+    Selecione o idioma (Inglês ou Alemão) e avance até concluir a instalação. [1, 2, 3, 4, 5]
+
+**Configuração Básica e Inicialização**
+
+    Abra o XAMPP Control Panel (Painel de Controle do XAMPP).
+
+    Na linha do Apache (servidor web), clique no botão Start.
+
+    Na linha do MySQL (banco de dados), clique no botão Start.
+
+    Quando os serviços estiverem ativos, os nomes ficarão destacados em verde
+
+**Importância do ambiente para desenvolvimento local**
+
+    O ambiente de desenvolvimento local com XAMPP é crucial para programar sites e sistemas dinâmicos (como PHP e MySQL) diretamente no seu computador. Ele elimina a necessidade de um servidor remoto, permitindo testar códigos, formulários e bancos de dados de forma segura, rápida e gratuita antes do lançamento. 
