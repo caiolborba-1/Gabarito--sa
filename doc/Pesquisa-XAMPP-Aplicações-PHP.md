@@ -22,7 +22,7 @@
 
     M (MariaDB / MySQL): O banco de dados. Utilizado para armazenar, organizar e gerenciar todas as informações dinâmicas do seu site (como senhas, usuários, posts e produtos).
 
-    P (PHP): A linguagem de programação principal. Permite criar sites dinâmicos e interagir com o banco de dados. O código é processado no servidor e entregue ao visitante já em formato HTML.
+    P (PHP): O PHP é a linguagem de programação utilizada para criar sites dinâmicos.Com ele, é possível criar sistemas com login, cadastros, formulários e integração com banco de dados.O código PHP é processado no servidor e enviado ao navegador em formato HTML.
 
     phpMyAdmin: Uma interface web que facilita a administração do banco de dados (MariaDB/MySQL). Permite criar, remover e alterar tabelas, além de executar comandos SQL visualmente
 
